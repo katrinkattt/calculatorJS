@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./state/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="crepll_row">
+                <div class="crep1"></div>
+                <div class="crep2"></div>
+            </div>
+            <h3>SIGMA </h3>
+            <h5> PC 1208 </h5>
+
+            <h1 class="calculator_display"  id="display"> 0 </h1>
+            <div class="calculator_battery"></div>
+            <div class = "calculator_keybord"></div>
+            <div class="keys">
+                <div class="keys_row">
+                     <button id="clear" class="key">off</button>
+                     <button data-action="kvadrat" class="key action">^</button>
+                     <button id="backspase" class="key">bs</button>
+                     <button data-value='' class="key digit">on</button>
+                </div>
+                <div class="keys_row">
+                    <button data-value='pologit' class="key action">M+</button>
+                    <button id ='changeZnach' class="key">M-</button>
+                    <button data-value='' class="key digit">Mr</button>
+                    <button data-action="prozent" class="key action">%</button>
+              </div>
+                <div class="keys_row">
+                    <button data-value=7 class="key digit">7</button>
+                    <button data-value=8 class="key digit">8</button>
+                    <button data-value=9 class="key digit">9</button>
+                    <button data-action="division" class="key action">/</button>
+                </div>
+                <div class="keys_row">
+                    <button data-value=4 class="key digit">4</button>
+                    <button data-value=5 class="key digit">5</button>
+                    <button data-value=6 class="key digit">6</button>
+                    <button data-action="multiply" class="key action">*</button>
+                </div>
+                <div class="keys_row">
+                    <button data-value=1 class="key digit">1</button>
+                    <button data-value=2 class="key digit">2</button>
+                    <button data-value=3 class="key digit">3</button>
+                    <button data-action="minus" class="key action">-</button>
+                </div>
+                <div class="keys_row">
+                    <button data-value=0 class="key digit">0</button>
+                    <button id="pointt" class="key">.</button>
+                    <button id="equally" class="key">=</button>
+                    <button data-action="plus" class="key action">+</button>
+                </div>
+                    <div class="crepl_row">
+                        <div class="crep3"></div>
+                        <div class="crep4"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="./state/js/const.js"></script>
+    <script src="./state/js/state.js"></script>
+    <script src="./state/js/script.js"></script>
+</html>
